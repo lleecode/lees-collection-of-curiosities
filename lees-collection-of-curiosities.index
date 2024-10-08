@@ -2,13 +2,17 @@
 <index>
 	<info>
 		<name>Lee’s Collection of Curiosities</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="lees-collection-of-curiosities.index"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities.index" />
 		</update>
 	</info>
 	<files>
-		<file name="cleric-arctic.xml"
+		<!-- Source -->
+		<file name="source.xml"
+			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/source.xml" />
+		<!-- Subclasses -->
+			<file name="cleric-arctic.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
 	</files>
 </index>
