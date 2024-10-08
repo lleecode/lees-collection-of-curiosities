@@ -6,7 +6,6 @@
 			<file name="cleric-arctic.xml" url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml"/>
 		</update>
 	</info>
-	</info>
  	<element name="Arctic Domain" type="Archetype" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_CLERIC_ARCTIC_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
