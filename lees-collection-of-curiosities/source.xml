@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/source.xml" />
+        </update>
+    </info>
+	<element name="Lee’s Collection of Curiosities" type="Source" source="Core" id="ID_LLEE_SOURCE_LEES_COLLECTION_OF_CURIOSITIES">
+		<description>
+			<p>The beginning of something.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">LCOC</set>
+			<set name="url">https://github.com/lleecode/lees-collection-of-curiosities</set>
+			<set name="image"></set>
+			<set name="author" abbreviation="LL" url="https://github.com/lleecode">lleecode</set>
+			<set name="third-party">true</set>
+			<set name="release">20241008</set>
+		</setters>
+	</element>
+</elements>
