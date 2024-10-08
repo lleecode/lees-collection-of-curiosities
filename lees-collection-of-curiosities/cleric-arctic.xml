@@ -3,8 +3,9 @@
 	<info>
 		<name>Arctic Domain</name>
 		<update version="0.0.1">
-			<file name="cleric-arctic.xml" />
+			<file name="cleric-arctic.xml" url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml"/>
 		</update>
+	</info>
 	</info>
  	<element name="Arctic Domain" type="Archetype" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_CLERIC_ARCTIC_DOMAIN">
 		<supports>Divine Domain</supports>
@@ -29,7 +30,6 @@
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCITC_DOMAIN_DOMAIN_SPELLS" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_BONUS_PROFICIENCIES" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_INNER_COLD" />
-			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_VIGILANT_BLESSING" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" />
@@ -40,7 +40,6 @@
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCITC_DOMAIN_DOMAIN_SPELLS" level="1" />
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_BONUS_PROFICIENCIES" level="1" />
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_INNER_COLD" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_VIGILANT_BLESSING" level="1" />
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE" level="2" />
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" level="6" />
 			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" level="8" />
