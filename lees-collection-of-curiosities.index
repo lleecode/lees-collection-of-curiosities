@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Lee’s Collection of Curiosities</name>
+		<update version="0.0.1">
+			<file name="lees-collection-of-curiosities.index" url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="cleric-arctic.xml" url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml"/>
+	</files>
+</index>
