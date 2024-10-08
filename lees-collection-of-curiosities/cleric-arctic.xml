@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -14,15 +14,12 @@
 		<supports>Divine Domain</supports>
 		<description>
 			<p>
-				Few dare to traverse, let alone inhabit the snowy mountains and cold deserts of the
-				Forgotten Realms.
-				Protected by their gods, Clerics of the Arctic Domain survive and even thrive in
-				these conditions.
+				Few dare to traverse, let alone inhabit the snowy mountains and cold deserts of the Forgotten Realms.
+				Protected by their gods, Clerics of the Arctic Domain survive and even thrive in these conditions.
 			</p>
 			<p class="indent">
-				Those following good gods might provide shelter to lost travellers or hunt fiends
-				hiding in unpopulated lands.
-				Their evil counterparts intend to expand their gods influence with deadly force.
+				Those following good gods might provide shelter to lost travellers or hunt fiends hiding in unpopulated lands.
+				Their evil counterparts intend to expand their gods’ influence with deadly force.
 			</p>
 			<h5 class="caption">Deities of the Arctic Domain</h5>
 			<table>
@@ -77,9 +74,7 @@
 			<p>
 				<em>1st-level Arctic Domain feature</em>
 			</p>
-			<p>You gain domain spells at the cleric levels listed in the Arctic Domain Spells table.
-				See the Divine Domain class feature in the Player’s Handbook for how domain spells
-				work.</p>
+			<p>You gain domain spells at the cleric levels listed in the Arctic Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
 			<h5>Arctic Domain Spells</h5>
 			<table>
 				<thead>
@@ -109,7 +104,7 @@
 				<tr>
 					<td>7th</td>
 					<td>
-						<em>fire shield, Lee’s Collection of Curiosities ice storm</em>
+						<em>fire shield, Lee’s ice storm</em>
 					</td>
 				</tr>
 				<tr>
@@ -151,12 +146,10 @@
 			<p>
 				<em>1st-level Arctic Domain feature</em>
 			</p>
-			<p>You gain proficiency with heavy armor. You also gain proficiency in the Survival
-				skill.</p>
+			<p>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</p>
 		</description>
 		<sheet display="false">
-			<description>You gain proficiency with heavy armor. You also gain proficiency in the
-				Survival skill.</description>
+			<description>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -169,26 +162,21 @@
 			<p>
 				<em>1st-level Arctic Domain feature</em>
 			</p>
-			<p>You ignore ignore the rules for Extreme Cold and Slippery Ice as described in the
-				Dungeon Master’s Guide.</p>
+			<p>You ignore ignore the rules for Extreme Cold and Slippery Ice as described in the Dungeon Master’s Guide.</p>
 		</description>
 		<sheet>
-			<description>You ignore ignore the rules for Extreme Cold and Slippery Ice as described
-				in the Dungeon Master’s Guide.</description>
+			<description>You ignore ignore the rules for Extreme Cold and Slippery Ice as described in the Dungeon Master’s Guide.</description>
 		</sheet>
 	</element>
 	<element name="Channel Divinity: Avalanche" type="Archetype Feature"
 		source="Lee’s Collection of Curiosities"
 		id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE">
 		<description>
-			<p>Starting at 2nd level, you can use your Channel Divinity to escalate the power of
-				your cold spells.</p>
-			<p class="indent">When you roll cold damage, you can use your Channel Divinity to roll
-				an additional dice for every maximum roll.</p>
+			<p>Starting at 2nd level, you can use your Channel Divinity to escalate the power of your cold spells.</p>
+			<p class="indent">When you roll cold damage, you can use your Channel Divinity to roll one additional dice for every maximum roll.</p>
 		</description>
 		<sheet alt="Avalanche" action="Action" usage="Channel Divinity">
-			<description>When you roll cold damage, you can use your Channel Divinity to roll an
-				additional dice for every maximum roll.</description>
+			<description>When you roll cold damage, you can use your Channel Divinity to roll one additional dice for every maximum roll.</description>
 		</sheet>
 	</element>
 	<element name="Icy Veins" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -220,10 +208,9 @@
 				increases to 2d8.</p>
 		</description>
 		<sheet>
-			<description>Once on each of your turns when you hit a creature with a weapon attack,
-				+1d8 cold damage.</description>
-			<description level="14">Once on each of your turns when you hit a creature with a weapon
-				attack, +2d8 cold damage.</description>
+			<description>
+				Once on each of your turns when you hit a creature with a weapon attack, +1d8 cold damage.</description>
+			<description level="14">Once on each of your turns when you hit a creature with a weapon attack, +2d8 cold damage.</description>
 		</sheet>
 	</element>
 	<element name="Glacial Growth" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -232,19 +219,15 @@
 			<p>
 				<em>17th-level Arctic Domain feature</em>
 			</p>
-			<p>Starting at 17th level, when you deal cold damage as part of a spell, you may choose
-				to gain temporary hit points equal to your Wisdom modifier + your clecric level
-				(minimum of 1).</p>
+			<p>Starting at 17th level, when you deal cold damage as part of a spell, you may choose to gain temporary hit points equal to your Wisdom modifier + your cleric level (minimum of 1).</p>
 		</description>
 		<sheet>
-			<description>When you deal cold damage as part of a spell, you may choose to gain
-				{{glacial growth:temp hp}} temporary hp.</description>
+			<description>When you deal cold damage as part of a spell, you may choose to gain {{glacial growth:temp hp}} temporary hp.</description>
 		</sheet>
 		<rules>
 			<stat name="glacial growth:temp hp" value="wisdom:modifier" />
 			<stat name="glacial growth:temp hp" value="level:cleric" />
 		</rules>
-
 	</element>
 	<element name="Frost Blade" type="Spell" source="Lee’s Collection of Curiosities"
 		id="ID_LCOC_SPELL_FROST_BLADE">
