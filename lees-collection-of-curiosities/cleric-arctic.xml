@@ -231,7 +231,7 @@
 	</element>
 	<element name="Frost Blade" type="Spell" source="Lee’s Collection of Curiosities"
 		id="ID_LCOC_SPELL_FROST_BLADE">
-		<supports>Sorcerer, Warlock, Wizard</supports>
+		<supports>Cleric</supports>
 		<description>
 			<p>You draw liquid from the air around you and freeze it into the shape of a sword. This
 				magic sword lasts until the spell ends. It counts as a simple melee weapon with
@@ -263,7 +263,7 @@
 	</element>
 	<element name="Lee’s Ice Storm" type="Spell"
 		source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_LEES_ICE_STORM">
-		<supports>Druid, Sorcerer, Wizard</supports>
+		<supports>Cleric, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>
 				A sudden storm of snow and ice bursts out in a 40-foot-high, 20-foot-radius cylinder
