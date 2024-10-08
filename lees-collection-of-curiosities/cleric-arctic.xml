@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Arctic Domain</name>
+		<update version="0.0.1">
+			<file name="cleric-arctic.xml" />
+		</update>
+	</info>
+ 	<element name="Arctic Domain" type="Archetype" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_CLERIC_ARCTIC_DOMAIN">
+		<supports>Divine Domain</supports>
+		<description>
+			<p>
+				Few dare to traverse, let alone inhabit the snowy mountains and cold deserts of the Forgotten Realms.
+				Protected by their gods, Clerics of the Arctic Domain survive and even thrive in these conditions.
+			</p>
+			<p class="indent">
+				Those following good gods might provide shelter to lost travellers or hunt fiends hiding in unpopulated lands.
+				Their evil counterparts intend to expand their gods influence with deadly force.  
+			</p>
+			<h5 class="caption">Deities of the Arctic Domain</h5>
+			<table>
+				<thead>
+					<tr><td>Example Deities</td><td>Pantheon</td></tr>
+				</thead>
+				<tr><td>Auril</td><td>Forgotten Realms</td></tr>
+				<tr><td>Silvanus</td><td>Forgotten Realms</td></tr>
+				<tr><td>Thrym</td><td>Forgotten Realms</td></tr>
+			</table>
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCITC_DOMAIN_DOMAIN_SPELLS" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_BONUS_PROFICIENCIES" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_INNER_COLD" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_VIGILANT_BLESSING" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCITC_DOMAIN_DOMAIN_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_BONUS_PROFICIENCIES" level="1" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_INNER_COLD" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_VIGILANT_BLESSING" level="1" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE" level="2" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" level="6" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" level="8" />
+			<grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH" level="17" />
+		</rules>
+	</element>
+	<element name="Domain Spells" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCITC_DOMAIN_DOMAIN_SPELLS">
+		<description>
+			<p><em>1st-level Arctic Domain feature</em></p>
+			<p>You gain domain spells at the cleric levels listed in the Arctic Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
+			<h5>Arctic Domain Spells</h5>
+			<table>
+				<thead>
+					<tr><td>Cleric Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>armor of agathys, ice knife</em></td></tr>
+				<tr><td>3rd</td><td><em>frost blade, misty step</em></td></tr>
+				<tr><td>5th</td><td><em>Leomund’s tiny hut, sleet storm</em></td></tr>
+				<tr><td>7th</td><td><em>fire shield, Lee’s Collection of Curiosities ice storm</em></td></tr>
+				<tr><td>9th</td><td><em>commune, cone of cold</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_LCOC_SPELL_FROST_BLADE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_LCOC_SPELL_LCOC_ICE_STORM" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="9" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_BONUS_PROFICIENCIES">
+		<description>
+			<p><em>1st-level Arctic Domain feature</em></p>
+			<p>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</rules>
+	</element>
+	<element name="Inner Cold" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_INNER_COLD">
+		<description>
+			<p><em>1st-level Arctic Domain feature</em></p>
+			<p>You ignore ignore the rules for Extreme Cold and Slippery Ice as described in the Dungeon Master’s Guide.</p>
+		</description>
+		<sheet>
+			<description>You ignore ignore the rules for Extreme Cold and Slippery Ice as described in the Dungeon Master’s Guide.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Avalanche" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE">
+		<description>
+			<p>Starting at 2nd level, you can use your Channel Divinity to escalate the power of your cold spells.</p>
+			<p class="indent">When you roll cold damage, you can use your Channel Divinity to roll an additional dice for every maximum roll.</p>
+		</description>
+		<sheet alt="Avalanche" action="Action" usage="Channel Divinity">
+			<description>When you roll cold damage, you can use your Channel Divinity to roll an additional dice for every maximum roll.</description>
+		</sheet>
+	</element>
+	<element name="Icy Veins" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS">
+		<description>
+			<p><em>6th-level Arctic Domain feature</em></p>
+			<p>Starting at 6th level you have resistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" />
+		</rules>
+	</element>
+	<element name="Divine Strike" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
+		<description>
+			<p><em>8th-level Arctic Domain feature</em></p>
+			<p>You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage. When you reach 14th level, the extra damage increases to 2d8.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns when you hit a creature with a weapon attack, +1d8 cold damage.</description>
+			<description level="14">Once on each of your turns when you hit a creature with a weapon attack, +2d8 cold damage.</description>
+		</sheet>
+	</element>
+	<element name="Glacial Growth" type="Archetype Feature" source="Lee’s Collection of Curiosities" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH">
+		<description>
+			<p><em>17th-level Arctic Domain feature</em></p>
+			<p>Starting at 17th level, when you deal cold damage as part of a spell, you may choose to gain temporary hit points equal to your Wisdom modifier + your clecric level (minimum of 1).</p>
+		</description>
+		<sheet>
+			<description>When you deal cold damage as part of a spell, you may choose to gain {{glacial growth:temp hp}} temporary hp.</description>
+		</sheet>
+		<rules>
+			<stat name="glacial growth:temp hp" value="wisdom:modifier" />
+			<stat name="glacial growth:temp hp" value="level:cleric" />
+		</rules>
+
+	</element>
+     <element name="Frost Blade" type="Spell" source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_FROST_BLADE">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You draw liquid from the air around you and freeze it into the shape of a sword. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals 2d8 cold damage on a hit.</p>
+            <p class="indent">If you drop the weapon it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the sword to reappear in your hand.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to 3d8. When you cast it using a 5th- or 6th-level spell slot, the damage increases to 4d8. When you cast it using a spell slot of 7th level or higher, the damage increases to 5d8.</p>
+        </description>
+        <setters>
+            <set name="keywords">cold</set>
+            <set name="level">2</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+	 <element name="Lee’s Collection of Curiosities Ice Storm" type="Spell" source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_LCOC_ICE_STORM">
+    <supports>Druid, Sorcerer, Wizard</supports>
+    <description>
+		<p>
+	  		A sudden storm of snow and ice bursts out in a 40-foot-high, 20-foot-radius cylinder centered on a point within range.
+			Each creature in the cylinder must make a Constitution saving throw. A creature takes 8d6 cold damage on a failed save, or half as much damage on a successful one.
+			A slowly melting sheet of snow turns the storm’s area of effect into difficult terrain for 1 hour.
+		</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords">cold</set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">300 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a few tear drops</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>
