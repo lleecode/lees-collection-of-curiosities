@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -131,7 +131,7 @@
 				prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Cleric"
 				prepared="true" />
-			<grant type="Spell" id="ID_LCOC_SPELL_LCOC_ICE_STORM" level="7" spellcasting="Cleric"
+			<grant type="Spell" id="ID_LCOC_SPELL_LEES_ICE_STORM" level="7" spellcasting="Cleric"
 				prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Cleric"
 				prepared="true" />
@@ -261,8 +261,8 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Lee’s Collection of Curiosities Ice Storm" type="Spell"
-		source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_LCOC_ICE_STORM">
+	<element name="Lee’s Ice Storm" type="Spell"
+		source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_LEES_ICE_STORM">
 		<supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>
