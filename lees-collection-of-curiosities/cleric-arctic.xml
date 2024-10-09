@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -186,9 +186,9 @@
 			<p>
 				<em>6th-level Arctic Domain feature</em>
 			</p>
-			<p>Starting at 6th level you have resistance to cold damage.</p>
+			<p>At 6th level, you gain resistance to cold damage.</p>
 		</description>
-		<sheet>
+		<sheet display="false">
 			<description>You have resistance to cold damage.</description>
 		</sheet>
 		<rules>
@@ -221,7 +221,7 @@
 			<p>At 17th level, you gain immunity to cold damage and resistance to fire damage.</p>
 		</description>
 		<sheet display="false">
-			<description>You gain immunity to cold damage and resistance to fire damage.</description>
+			<description>You have immunity to cold damage and resistance to fire damage.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
