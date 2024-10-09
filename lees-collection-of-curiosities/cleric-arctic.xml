@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -228,70 +228,5 @@
 			<stat name="glacial growth:temp hp" value="wisdom:modifier" />
 			<stat name="glacial growth:temp hp" value="level:cleric" />
 		</rules>
-	</element>
-	<element name="Frost Blade" type="Spell" source="Lee’s Collection of Curiosities"
-		id="ID_LCOC_SPELL_FROST_BLADE">
-		<supports>Cleric</supports>
-		<description>
-			<p>You draw liquid from the air around you and freeze it into the shape of a sword. This
-				magic sword lasts until the spell ends. It counts as a simple melee weapon with
-				which you are proficient. It deals 2d8 cold damage on a hit.</p>
-			<p class="indent">If you drop the weapon it dissipates at the end of the turn.
-				Thereafter, while the spell persists, you can use a bonus action to cause the sword
-				to reappear in your hand.</p>
-			<p class="indent"><b>
-					<i>At Higher Levels. </i>
-				</b>When you cast this spell using a
-				3rd- or 4th-level spell slot, the damage increases to 3d8. When you cast it using a
-				5th- or 6th-level spell slot, the damage increases to 4d8. When you cast it using a
-				spell slot of 7th level or higher, the damage increases to 5d8.</p>
-		</description>
-		<setters>
-			<set name="keywords">cold</set>
-			<set name="level">2</set>
-			<set name="school">Illusion</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Self</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent"></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Lee’s Ice Storm" type="Spell"
-		source="Lee’s Collection of Curiosities" id="ID_LCOC_SPELL_LEES_ICE_STORM">
-		<supports>Cleric, Druid, Sorcerer, Wizard</supports>
-		<description>
-			<p>
-				A sudden storm of snow and ice bursts out in a 40-foot-high, 20-foot-radius cylinder
-				centered on a point within range.
-				Each creature in the cylinder must make a Constitution saving throw. A creature
-				takes 8d6 cold damage on a failed save, or half as much damage on a successful one.
-				A slowly melting sheet of snow turns the storm’s area of effect into difficult
-				terrain for 1 hour.
-			</p>
-			<p class="indent"><b>
-					<i>At Higher Levels.</i>
-				</b> When you cast this spell using a
-				spell slot of 5th level or higher, the damage increases by 1d6 for each slot level
-				above 4th.</p>
-		</description>
-		<setters>
-			<set name="keywords">cold</set>
-			<set name="level">4</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">300 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a few tear drops</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
 	</element>
 </elements>

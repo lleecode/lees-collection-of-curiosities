@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Lee’s Collection of Curiosities</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="lees-collection-of-curiosities.index"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities.index" />
 		</update>
@@ -11,6 +11,9 @@
 		<!-- Source -->
 		<file name="source.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/source.xml" />
+		<!-- Spells -->
+		<file name="source.xml"
+			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/spells.xml" />
 		<!-- Subclasses -->
 			<file name="cleric-arctic.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
