@@ -12,7 +12,7 @@
 		<file name="source.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/source.xml" />
 		<!-- Spells -->
-		<file name="source.xml"
+		<file name="spells.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/spells.xml" />
 		<!-- Subclasses -->
 			<file name="cleric-arctic.xml"
