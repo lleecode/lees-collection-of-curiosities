@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -175,7 +175,7 @@
 			<p>Starting at 2nd level, you can use your Channel Divinity to escalate the power of your cold spells.</p>
 			<p class="indent">When you roll cold damage, you can use your Channel Divinity to roll one additional dice for every maximum roll.</p>
 		</description>
-		<sheet alt="Avalanche" action="Action" usage="Channel Divinity">
+		<sheet alt="Avalanche" usage="Channel Divinity">
 			<description>When you roll cold damage, you can use your Channel Divinity to roll one additional dice for every maximum roll.</description>
 		</sheet>
 	</element>
