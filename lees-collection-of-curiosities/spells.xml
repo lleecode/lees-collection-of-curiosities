@@ -3,7 +3,7 @@
 	<info>
 		<name>Spells</name>
 		<description>The Spells Arcane Tradition from Lee’s Collection of Curiosities</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="spells.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/spells.xml" />
@@ -15,7 +15,7 @@
 		<description>
 			<p>You draw liquid from the air around you and freeze it into the shape of a sword. This
 				magic sword lasts until the spell ends. It counts as a simple melee weapon with
-				which you are proficient. It deals 2d8 cold damage on a hit.</p>
+				which you are proficient. It deals 2d8 cold damage on a hit and has the finesse and light properties.</p>
 			<p class="indent">If you drop the weapon it dissipates at the end of the turn.
 				Thereafter, while the spell persists, you can use a bonus action to cause the sword
 				to reappear in your hand.</p>

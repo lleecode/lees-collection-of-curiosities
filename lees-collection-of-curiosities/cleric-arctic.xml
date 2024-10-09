@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -146,14 +146,14 @@
 			<p>
 				<em>1st-level Arctic Domain feature</em>
 			</p>
-			<p>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</p>
+			<p>You gain proficiency with martial weapons. You also gain proficiency in the Survival skill.</p>
 		</description>
 		<sheet display="false">
-			<description>You gain proficiency with heavy armor. You also gain proficiency in the Survival skill.</description>
+			<description>You gain proficiency with martial weapons. You also gain proficiency in the Survival skill.</description>
 		</sheet>
 		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
 		</rules>
 	</element>
 	<element name="Inner Cold" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -216,17 +216,15 @@
 	<element name="Glacial Growth" type="Archetype Feature" source="Lee’s Collection of Curiosities"
 		id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH">
 		<description>
-			<p>
-				<em>17th-level Arctic Domain feature</em>
-			</p>
-			<p>Starting at 17th level, when you deal cold damage as part of a spell, you may choose to gain temporary hit points equal to your Wisdom modifier + your cleric level (minimum of 1).</p>
+			<p><em>17th-level Arctic Domain feature</em></p>
+			<p>At 17th level, you gain immunity to cold damage and resistance to fire damage.</p>
 		</description>
-		<sheet>
-			<description>When you deal cold damage as part of a spell, you may choose to gain {{glacial growth:temp hp}} temporary hp.</description>
+		<sheet display="false">
+			<description>You gain immunity to cold damage and resistance to fire damage.</description>
 		</sheet>
 		<rules>
-			<stat name="glacial growth:temp hp" value="wisdom:modifier" />
-			<stat name="glacial growth:temp hp" value="level:cleric" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" />
 		</rules>
 	</element>
 </elements>
