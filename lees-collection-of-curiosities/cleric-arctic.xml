@@ -3,7 +3,7 @@
 	<info>
 		<name>Arctic Domain</name>
 		<description>The Arctic Domain Cleric from Lee’s Collection of Curiosities</description>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="cleric-arctic.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
@@ -48,7 +48,7 @@
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_CD_AVALANCHE" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS" />
 			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" />
-			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH" />
+			<div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_ARMOR" />
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -65,7 +65,7 @@
 			<grant type="Archetype Feature"
 				id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_DIVINE_STRIKE" level="8" />
 			<grant type="Archetype Feature"
-				id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH" level="17" />
+				id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_ARMOR" level="17" />
 		</rules>
 	</element>
 	<element name="Domain Spells" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -181,6 +181,7 @@
 	</element>
 	<element name="Icy Veins" type="Archetype Feature" source="Lee’s Collection of Curiosities"
 		id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_ICY_VEINS">
+		<requirements>!ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_ARMOR</requirements>
 		<description>
 			<p>
 				<em>6th-level Arctic Domain feature</em>
@@ -213,8 +214,8 @@
 			<description level="14">Once on each of your turns when you hit a creature with a weapon attack, +2d8 cold damage.</description>
 		</sheet>
 	</element>
-	<element name="Glacial Growth" type="Archetype Feature" source="Lee’s Collection of Curiosities"
-		id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_GROWTH">
+	<element name="Glacial Armor" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+		id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_ARCTIC_DOMAIN_GLACIAL_ARMOR">
 		<description>
 			<p><em>17th-level Arctic Domain feature</em></p>
 			<p>At 17th level, you gain immunity to cold damage and resistance to fire damage.</p>
