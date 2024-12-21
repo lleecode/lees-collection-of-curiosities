@@ -20,3 +20,4 @@ If you want to try it out, enter the [link to the index file](https://raw.github
 | ---- | ----- | ------ | ------- | ----------- |
 | Frost Blade | 2 | Illusion | Sorcerer, Warlock, Wizard | Shadow Blade with cold damage & slight changes to fit the Arctic Domain. |
 | Lee’s Ice Storm | 4 | Evocation | Druid, Sorcerer, Wizard | Upgraded ice storm. Damage closer to Fireball & longer difficult terrain. |
+| Lightning Jab | Cantrip | Evocation | Artificer, Druid, Sorcerer, Wizard | Ranged Shocking Grasp. |
