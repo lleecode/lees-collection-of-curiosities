@@ -106,19 +106,19 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="6" bonus="base" />
-            <stat name="dawn strike:dice:amount" value="1" bonus="base" />
+            <stat name="dawn strike:dice:size" value="6"/>
+            <stat name="dawn strike:dice:amount" value="1"/>
         </rules>
     </element>
     <element name="Dusk´s Respite" type="Archetype Feature" source="Lee’s Collection of Curiosities"
         id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM_DUSKS_RESPITE">
         <compendium display="false" />
         <description>
-            <p> The radiance of your solar form fades for a brief moment and then renews with a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
+            <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
         </description>
         <sheet usage="Solar Form">
             <description>
-                <p> The radiance of your solar form fades for a brief moment and then renews with a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
+                <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
             </description>
         </sheet>
     </element>

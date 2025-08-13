@@ -14,6 +14,9 @@ If you want to try it out, enter the [link to the index file](https://raw.github
 #### Cleric
 - [Arctic Domain](https://github.com/lleecode/lees-collection-of-curiosities/blob/main/lees-collection-of-curiosities/cleric-arctic.xml)
 
+#### Druid
+- [Circle of the Sun (work in progress)](https://github.com/lleecode/lees-collection-of-curiosities/blob/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml)
+
 ### [Spells](https://github.com/lleecode/lees-collection-of-curiosities/blob/main/lees-collection-of-curiosities/spells.xml)
 
 | Name | Level | School | Classes | Description |
