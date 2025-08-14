@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Lee’s Collection of Curiosities</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="lees-collection-of-curiosities.index"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities.index" />
 		</update>
@@ -17,5 +17,7 @@
 		<!-- Subclasses -->
 			<file name="cleric-arctic.xml"
 			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/cleric-arctic.xml" />
+			<file name="druid-circle-of-the-sun.xml"
+			url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml" />
 	</files>
 </index>
