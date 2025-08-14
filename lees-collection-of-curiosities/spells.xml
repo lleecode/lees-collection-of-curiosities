@@ -3,7 +3,7 @@
 	<info>
 		<name>Spells</name>
 		<description>The Spells Arcane Tradition from Lee’s Collection of Curiosities</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<author url="https://github.com/lleecode">Lee</author>
 			<file name="spells.xml"
 				url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/spells.xml" />
@@ -78,7 +78,7 @@
 		<supports>Artificer, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>You blast a hand made of lightning to a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1D8 lightning damage, and it can't make Opportunity Attacks until the start of its next turn.</p>
-			<p class="indent">This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d4).</p>
+			<p class="indent">This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
 		</description>
 		<setters>
 			<set name="keywords">lightning</set>
