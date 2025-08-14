@@ -3,7 +3,7 @@
     <info>
         <name>Circle of the Sun</name>
         <description>The Circle of the Sun from Lee’s Collection of Curiosities</description>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <author url="https://github.com/lleecode">Lee</author>
             <file name="druid-circle-of-the-sun.xml"
                 url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml" />
@@ -121,8 +121,8 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="6" />
-            <stat name="dawn strike:dice:amount" value="1" />
+            <stat name="dawn strike:dice:size" value="6" level="2" />
+            <stat name="dawn strike:dice:amount" value="1" level="2" />
         </rules>
     </element>
     <element name="Dusk´s Respite" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -141,12 +141,13 @@
         id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_DRUIDIC_WAR_MAGIC">
         <description>
             <p>
-                <em>4th-level Circle of the Sun feature</em>
+                <em>6th-level Circle of the Sun feature</em>
             </p>
             <p>
                 Starting at 6th level, when you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
                 you can make one weapon attack as a bonus action until the end of your turn.
-
+            </p>
+            <p>
                 Additionally, your Dawn Strikes improve. The extra radiant damage becomes 1d8.
             </p>
         </description>
@@ -159,8 +160,8 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="8" />
-            <stat name="dawn strike:dice:amount" value="1" />
+            <stat name="dawn strike:dice:size" value="8" level="6" />
+            <stat name="dawn strike:dice:amount" value="1" level="6" />
         </rules>
     </element>
     <element name="Sudden Dawn Strike" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -172,7 +173,8 @@
             <p>
                 Starting at 10th level, while you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
                 you can replace it with a Dawn Strike.
-
+            </p>
+            <p>
                 Additionally, your Dawn Strikes improve. The extra radiant damage becomes 1d10.
             </p>
         </description>
@@ -185,8 +187,8 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="10" />
-            <stat name="dawn strike:dice:amount" value="1" />
+            <stat name="dawn strike:dice:size" value="10" level="10" />
+            <stat name="dawn strike:dice:amount" value="1" level="10" />
         </rules>
     </element>
     <element name="Sunset" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -213,7 +215,10 @@
             <p>
                 <em>14th-level Circle of the Sun feature</em>
             </p>
-            <p> At 14th level, you gain the ability to retaliate with burning light. The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. Additionally, your Dawn Strikes improve. The extra radiant damage becomes 2d6. </p>
+            <p> At 14th level, you gain the ability to retaliate with burning light. The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. </p>
+            <p>
+                Additionally, your Dawn Strikes improve. The extra radiant damage becomes 2d6.
+            </p>
         </description>
         <sheet>
             <description>
@@ -221,8 +226,8 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="6" />
-            <stat name="dawn strike:dice:amount" value="2" />
+            <stat name="dawn strike:dice:size" value="6" level="14" />
+            <stat name="dawn strike:dice:amount" value="2" level="14" />
         </rules>
     </element>
 </elements>
