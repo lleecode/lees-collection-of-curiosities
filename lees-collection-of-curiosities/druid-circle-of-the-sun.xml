@@ -3,7 +3,7 @@
     <info>
         <name>Circle of the Sun</name>
         <description>The Circle of the Sun from Lee’s Collection of Curiosities</description>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <author url="https://github.com/lleecode">Lee</author>
             <file name="druid-circle-of-the-sun.xml"
                 url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml" />
@@ -99,7 +99,7 @@
                     You have the ability to channel your innate solar powers through your armor.
                     If you wear armor made of metal, you can expend a use of your Wild Shape feature to take on a solar form, rather than transforming into a beast.
                 </p>
-                <p class="indent"> While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet. The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again. You have a pool of <strong>inner light</strong>. It starts at 0 and is reset to 0 when your solar form ends. Until the form ends, you gain access to the following actions: </p>
+                <p class="indent"> While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet. The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again. You have a pool of inner light. It starts at 0 and is reset to 0 when your solar form ends. Until the form ends, you gain access to the following actions: </p>
             </description>
         </sheet>
         <rules>
@@ -117,7 +117,7 @@
         </description>
         <sheet action="Action" usage="Solar Form">
             <description>
-                <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes {{dawn strike:dice:amount}}d{{dawn strike:dice:size}} extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of <strong>inner light</strong>. </p>
+                <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes {{dawn strike:dice:amount}}d{{dawn strike:dice:size}} extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of inner light. </p>
             </description>
         </sheet>
         <rules>
@@ -133,7 +133,7 @@
         </description>
         <sheet action="Bonus Action" usage="1/Solar Form">
             <description>
-                <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
+                <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of inner light built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
             </description>
         </sheet>
     </element>
@@ -222,7 +222,7 @@
         </description>
         <sheet>
             <description>
-                <p> The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. </p>
+                <p> The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of inner light. </p>
             </description>
         </sheet>
         <rules>
