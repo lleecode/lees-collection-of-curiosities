@@ -115,7 +115,7 @@
         <description>
             <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes 1d6 extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of <strong>inner light</strong>. </p>
         </description>
-        <sheet usage="Solar Form">
+        <sheet action="Action" usage="Solar Form">
             <description>
                 <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes {{dawn strike:dice:amount}}d{{dawn strike:dice:size}} extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of <strong>inner light</strong>. </p>
             </description>
@@ -131,7 +131,7 @@
         <description>
             <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
         </description>
-        <sheet usage="Solar Form">
+        <sheet action="Bonus Action" usage="1/Solar Form">
             <description>
                 <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
             </description>
@@ -145,17 +145,17 @@
             </p>
             <p>
                 Starting at 6th level, when you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
-                you can make one weapon attack as a bonus action until the end of your turn.
+                you can make one melee weapon attack as a bonus action until the end of your turn.
             </p>
             <p>
                 Additionally, your Dawn Strikes improve. The extra radiant damage becomes 1d8.
             </p>
         </description>
-        <sheet>
+        <sheet action="Bonus Action">
             <description>
                 <p>
                     When you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
-                    you can make one weapon attack as a bonus action until the end of your turn.
+                    you can make one melee weapon attack as a bonus action until the end of your turn.
                 </p>
             </description>
         </sheet>
@@ -171,7 +171,7 @@
                 <em>10th-level Circle of the Sun feature</em>
             </p>
             <p>
-                Starting at 10th level, while you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
+                Starting at 10th level, while you are in your solar form and use your bonus action to make a melee weapon attack as warranted by your Druidic War Magic feature,
                 you can replace it with a Dawn Strike.
             </p>
             <p>
@@ -181,7 +181,7 @@
         <sheet>
             <description>
                 <p>
-                    While you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
+                    While you are in your solar form and use your bonus action to make a melee weapon attack as warranted by your Druidic War Magic feature,
                     you can replace it with a Dawn Strike.
                 </p>
             </description>
