@@ -15,10 +15,17 @@
         <description>
             <p>TODO: Circle description</p>
             <p class="indent">TODO: Circle description</p>
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_BONUS_PROFICIENCIES" />
             <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_LIVING_METAL" />
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM" />
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_DRUIDIC_WAR_MAGIC" />
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_DAWN_STRIKE" />
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNSET" />
+            <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNBURST" />
         </description>
         <sheet display="false" />
         <rules>
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_BONUS_PROFICIENCIES" level="2" />
             <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_LIVING_METAL" level="2" />
             <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM" level="2" />
             <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_DRUIDIC_WAR_MAGIC" level="6" />
@@ -55,12 +62,14 @@
             </p>
         </description>
         <sheet>
-            <p>
-                Your connection to the metals of the Earths allows your will to flow through weapons made of them.
-                Whenever you finish a long rest, you can touch one melee weapon made of metal that you are proficient with.
-                When you attack with that weapon, you can use your Wisdom modifier, instead of Strength or Dexterity, for the attack and damage rolls.
-                This benefit lasts until you finish a long rest.
-            </p>
+            <description>
+                <p>
+                    Your connection to the metals of the Earths allows your will to flow through weapons made of them.
+                    Whenever you finish a long rest, you can touch one melee weapon made of metal that you are proficient with.
+                    When you attack with that weapon, you can use your Wisdom modifier, instead of Strength or Dexterity, for the attack and damage rolls.
+                    This benefit lasts until you finish a long rest.
+                </p>
+            </description>
         </sheet>
     </element>
     <element name="Solar Form" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -142,10 +151,12 @@
             </p>
         </description>
         <sheet>
-            <p>
-                When you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
-                you can make one weapon attack as a bonus action until the end of your turn.
-            </p>
+            <description>
+                <p>
+                    When you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
+                    you can make one weapon attack as a bonus action until the end of your turn.
+                </p>
+            </description>
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="8" />
@@ -166,10 +177,12 @@
             </p>
         </description>
         <sheet>
-            <p>
-                While you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
-                you can replace it with a Dawn Strike.
-            </p>
+            <description>
+                <p>
+                    While you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
+                    you can replace it with a Dawn Strike.
+                </p>
+            </description>
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="10" />
@@ -187,9 +200,11 @@
             </p>
         </description>
         <sheet>
-            <p>
-                When you heal from Dusk's Respite, gain half of that amount as temporary hit points (rounded up).
-            </p>
+            <description>
+                <p>
+                    When you heal from Dusk's Respite, gain half of that amount as temporary hit points (rounded up).
+                </p>
+            </description>
         </sheet>
     </element>
     <element name="Sunburst" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -201,7 +216,9 @@
             <p> At 14th level, you gain the ability to retaliate with burning light. The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. Additionally, your Dawn Strikes improve. The extra radiant damage becomes 2d6. </p>
         </description>
         <sheet>
-            <p> The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. </p>
+            <description>
+                <p> The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. </p>
+            </description>
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="6" />
