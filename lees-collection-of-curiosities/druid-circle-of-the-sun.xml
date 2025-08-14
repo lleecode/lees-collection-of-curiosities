@@ -19,10 +19,26 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature"
-                id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_LIVING_METAL" level="2" />
-            <grant type="Archetype Feature"
-                id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM" level="2" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_LIVING_METAL" level="2" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM" level="2" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_DRUIDIC_WAR_MAGIC" level="6" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_DAWN_STRIKE" level="10" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNSET" level="10" />
+            <grant type="Archetype Feature" id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNBURST" level="14" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_BONUS_PROFICIENCIES">
+        <description>
+            <p>
+                <em>Circle of the Sun Bonus Proficiencies</em>
+            </p>
+            <p>You gain proficiency with heavy armor and martial weapons.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
         </rules>
     </element>
     <element name="Living Metal" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -58,12 +74,7 @@
                 As a bonus action, you can expend a use of your Wild Shape feature to take on a solar form, rather than transforming into a beast.
                 You must wear armor made of metal to do so.
             </p>
-            <p class="indent">
-                While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet.
-                The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again.
-                You have a pool of *inner light*. It starts at 0 and is reset to 0 when your solar form ends.
-                Until the form ends, you gain access to the following actions:
-            </p>
+            <p class="indent"> While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet. The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again. You have a pool of <strong>inner light</strong>. It starts at 0 and is reset to 0 when your solar form ends. Until the form ends, you gain access to the following actions: </p>
             <p style="text-indent: -1em; margin-left: 1em">
                 <strong>
                     <em>Dawn Strike.</em>
@@ -79,12 +90,7 @@
                     You have the ability to channel your innate solar powers through your armor.
                     If you wear armor made of metal, you can expend a use of your Wild Shape feature to take on a solar form, rather than transforming into a beast.
                 </p>
-                <p class="indent">
-                    While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet.
-                    The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again.
-                    You have a pool of *inner light*. It starts at 0 and is reset to 0 when your solar form ends.
-                    Until the form ends, you gain access to the following actions:
-                </p>
+                <p class="indent"> While in your solar form, you retain your game statistics, but your body and armor forge a radiating unit, that sheds bright light in a 20-foot radius and dim light for an additional 10 feet. The form lasts for 1 minute. It ends early if you dismiss it (no action required), are incapacitated, die, doff your armor or use this feature again. You have a pool of <strong>inner light</strong>. It starts at 0 and is reset to 0 when your solar form ends. Until the form ends, you gain access to the following actions: </p>
             </description>
         </sheet>
         <rules>
@@ -106,8 +112,8 @@
             </description>
         </sheet>
         <rules>
-            <stat name="dawn strike:dice:size" value="6"/>
-            <stat name="dawn strike:dice:amount" value="1"/>
+            <stat name="dawn strike:dice:size" value="6" />
+            <stat name="dawn strike:dice:amount" value="1" />
         </rules>
     </element>
     <element name="Dusk´s Respite" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -121,5 +127,85 @@
                 <p> The radiance of your solar form fades for a brief moment and then rekindles, reduced to a 10-foot radius of bright light and dim light for an additional 5 feet. You regain hit points equal to the pool of <strong>inner light</strong> built up by your Dawn Strikes. You can't do so again, until the next time you enter your solar form. </p>
             </description>
         </sheet>
+    </element>
+    <element name="Druidic War Magic" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_DRUIDIC_WAR_MAGIC">
+        <description>
+            <p>
+                <em>4th-level Circle of the Sun feature</em>
+            </p>
+            <p>
+                Starting at 6th level, when you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
+                you can make one weapon attack as a bonus action until the end of your turn.
+
+                Additionally, your Dawn Strikes improve. The extra radiant damage becomes 1d8.
+            </p>
+        </description>
+        <sheet>
+            <p>
+                When you use your action to cast a spell or take an action granted by a spell that you are currently concentrating on,
+                you can make one weapon attack as a bonus action until the end of your turn.
+            </p>
+        </sheet>
+        <rules>
+            <stat name="dawn strike:dice:size" value="8" />
+            <stat name="dawn strike:dice:amount" value="1" />
+        </rules>
+    </element>
+    <element name="Sudden Dawn Strike" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_DAWN_STRIKE">
+        <description>
+            <p>
+                <em>10th-level Circle of the Sun feature</em>
+            </p>
+            <p>
+                Starting at 10th level, while you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
+                you can replace it with a Dawn Strike.
+
+                Additionally, your Dawn Strikes improve. The extra radiant damage becomes 1d10.
+            </p>
+        </description>
+        <sheet>
+            <p>
+                While you are in your solar form and make an attack as a bonus action as warranted by your Druidic War Magic feature,
+                you can replace it with a Dawn Strike.
+            </p>
+        </sheet>
+        <rules>
+            <stat name="dawn strike:dice:size" value="10" />
+            <stat name="dawn strike:dice:amount" value="1" />
+        </rules>
+    </element>
+    <element name="Sunset" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_SUNSET">
+        <description>
+            <p>
+                <em>10th-level Circle of the Sun feature</em>
+            </p>
+            <p>
+                Starting at 10th level, when you heal from Dusk's Respite, gain half of that amount as temporary hit points (rounded up).
+            </p>
+        </description>
+        <sheet>
+            <p>
+                When you heal from Dusk's Respite, gain half of that amount as temporary hit points (rounded up).
+            </p>
+        </sheet>
+    </element>
+    <element name="Sunburst" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_SUNBURST">
+        <description>
+            <p>
+                <em>14th-level Circle of the Sun feature</em>
+            </p>
+            <p> At 14th level, you gain the ability to retaliate with burning light. The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. Additionally, your Dawn Strikes improve. The extra radiant damage becomes 2d6. </p>
+        </description>
+        <sheet>
+            <p> The first time a creature within the area of solar form's bright light targets you with an attack on its turn, it must make a Constitution saving throw against your druid spell save DC. On a failed save, the creature takes 2d6 radiant damage. On a successful save, the creature takes half as much damage. The amount of radiant damage dealt is added to your pool of <strong>inner light</strong>. </p>
+        </sheet>
+        <rules>
+            <stat name="dawn strike:dice:size" value="6" />
+            <stat name="dawn strike:dice:amount" value="2" />
+        </rules>
     </element>
 </elements>
