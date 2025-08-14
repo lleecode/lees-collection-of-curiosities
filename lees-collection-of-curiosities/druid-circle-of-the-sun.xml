@@ -3,7 +3,7 @@
     <info>
         <name>Circle of the Sun</name>
         <description>The Circle of the Sun from Lee’s Collection of Curiosities</description>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <author url="https://github.com/lleecode">Lee</author>
             <file name="druid-circle-of-the-sun.xml"
                 url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml" />
@@ -122,7 +122,7 @@
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="6" bonus="dawn strike" level="2" />
-            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike" level="2" />
+            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike amount" level="2" />
         </rules>
     </element>
     <element name="Dusk´s Respite" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -161,7 +161,7 @@
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="8" bonus="dawn strike" level="6" />
-            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike" level="6" />
+            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike amount" level="6" />
         </rules>
     </element>
     <element name="Sudden Dawn Strike" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -188,7 +188,7 @@
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="10" bonus="dawn strike" level="10" />
-            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike" level="10" />
+            <stat name="dawn strike:dice:amount" value="1" bonus="dawn strike amount" level="10" />
         </rules>
     </element>
     <element name="Sunset" type="Archetype Feature" source="Lee’s Collection of Curiosities"
@@ -227,7 +227,7 @@
         </sheet>
         <rules>
             <stat name="dawn strike:dice:size" value="6" bonus="dawn strike" level="14" />
-            <stat name="dawn strike:dice:amount" value="2" bonus="dawn strike" level="14" />
+            <stat name="dawn strike:dice:amount" value="2" bonus="dawn strike amount" level="14" />
         </rules>
     </element>
 </elements>
