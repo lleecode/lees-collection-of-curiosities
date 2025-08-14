@@ -3,7 +3,7 @@
     <info>
         <name>Circle of the Sun</name>
         <description>The Circle of the Sun from Lee’s Collection of Curiosities</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <author url="https://github.com/lleecode">Lee</author>
             <file name="druid-circle-of-the-sun.xml"
                 url="https://raw.githubusercontent.com/lleecode/lees-collection-of-curiosities/refs/heads/main/lees-collection-of-curiosities/druid-circle-of-the-sun.xml" />
@@ -13,8 +13,8 @@
         id="ID_LLEE_LCOC_ARCHETYPE_DRUID_CIRCLE_OF_THE_SUN">
         <supports>Druid Circle</supports>
         <description>
-            <p>TODO: Circle description</p>
-            <p class="indent">TODO: Circle description</p>
+            <p>Work in Progress. Test Version 0.0.X</p>
+            <p class="indent">-</p>
             <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_BONUS_PROFICIENCIES" />
             <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_LIVING_METAL" />
             <div element="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM" />
@@ -109,7 +109,7 @@
                 id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM_DUSKS_RESPITE" />
         </rules>
     </element>
-    <element name="DAWN STRIKE" type="Archetype Feature" source="Lee’s Collection of Curiosities"
+    <element name="Dawn Strike" type="Archetype Feature" source="Lee’s Collection of Curiosities"
         id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SOLAR_FORM_DAWN_STRIKE">
         <compendium display="false" />
         <description>
@@ -117,7 +117,7 @@
         </description>
         <sheet usage="Solar Form">
             <description>
-                <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes {{dawn strike:dice:count}}d{{dawn strike:dice:size}} extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of <strong>inner light</strong>. </p>
+                <p> Your weapon flashes with golden light as you make a melee attack against one creature within reach. On a hit, the target suffers the weapon attacks normal effects and takes {{dawn strike:dice:amount}}d{{dawn strike:dice:size}} extra radiant damage. The amount of extra radiant damage dealt by Dawn Strike is added to your pool of <strong>inner light</strong>. </p>
             </description>
         </sheet>
         <rules>
@@ -190,7 +190,7 @@
         </rules>
     </element>
     <element name="Sunset" type="Archetype Feature" source="Lee’s Collection of Curiosities"
-        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_SUNSET">
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNSET">
         <description>
             <p>
                 <em>10th-level Circle of the Sun feature</em>
@@ -208,7 +208,7 @@
         </sheet>
     </element>
     <element name="Sunburst" type="Archetype Feature" source="Lee’s Collection of Curiosities"
-        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUDDEN_SUNBURST">
+        id="ID_LLEE_LCOC_ARCHETYPE_FEATURE_CIRCLE_OF_THE_SUN_SUNBURST">
         <description>
             <p>
                 <em>14th-level Circle of the Sun feature</em>
