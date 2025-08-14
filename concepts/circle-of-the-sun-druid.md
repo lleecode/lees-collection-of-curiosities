@@ -1,5 +1,17 @@
 *Work in Progress*
 
+## Iteration
+
+Theme:
+- Rethink name to represent theme better: Circle of the Sun Forge
+    - create lore for sun forges
+
+Mechanics:
+- Rethink if Druidic War Magic should continue to allow for 2 attacks in one turn using Booming Blade
+- Rethink if Dawn Strike should be improved to work on any attack that happens as part of an action
+    - would allow for booming blade with Dawn Strike
+    - would allow for 2 Dawn Strikes in one turn with Booming Blade + Druidic War Magic + Sudden Dawn Strike
+
 ## Motivation
 
 Metals are part of Nature. Human(oid)s are part of Nature.
